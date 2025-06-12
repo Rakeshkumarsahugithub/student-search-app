@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // Load student data from JSON file
-const studentsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'students.json'), 'utf-8'));
+const studentsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'student_data.json'), 'utf-8'));
 
 // Search endpoint
 app.get('/api/students/search', (req, res) => {
