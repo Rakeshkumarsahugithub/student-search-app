@@ -185,6 +185,7 @@ function App() {
                 mt: 1,
                 zIndex: 1,
                 borderRadius: 2,
+                pointer: 'cursor',
               }}
             >
               <List>
