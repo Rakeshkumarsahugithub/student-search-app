@@ -185,7 +185,6 @@ function App() {
                 mt: 1,
                 zIndex: 1,
                 borderRadius: 2,
-                pointer: 'cursor',
               }}
             >
               <List>
@@ -194,7 +193,8 @@ function App() {
                     <ListItem
                       button
                       onClick={() => handleStudentSelect(student)}
-                      sx={{ '&:hover': { backgroundColor: 'action.hover' } }}
+                      sx={{ cursor: 'pointer',
+            '&:hover': { backgroundColor: 'action.hover' }  }}
                     >
                       <ListItemAvatar>
                         <Avatar sx={{ bgcolor: stringToColor(student.name) }}>
