@@ -102,9 +102,7 @@ student-search-app/
   ```bash
   node server.js
 ```
-4. The backend will run at:
 
-  http://localhost:5000
 
 ---
 
@@ -122,10 +120,6 @@ npm install
  ```bash
  npm run dev
 ```
-
-4.The frontend will open in your browser at:
-
-http://localhost:5000
 
 
 
