@@ -58,8 +58,7 @@ function App() {
     clearTimeout(notFoundTimeout);
 
     try {
-      const response = await axios.get(`http://student-search-app-fbue.vercel.app
-/api/students/search`, {
+      const response = await axios.get(`https://student-search-app-fbue.vercel.app/api/students/search`, {
         params: { query }
       });
 
